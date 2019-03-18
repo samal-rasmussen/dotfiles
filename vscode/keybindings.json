@@ -1,0 +1,25 @@
+// Place your key bindings in this file to overwrite the defaults
+[
+    {
+        "key": "alt+c",
+        "command": "editor.action.commentLine",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "ctrl+/",
+        "command": "-editor.action.commentLine",
+        "when": "editorTextFocus && !editorReadonly"
+	},
+	{
+		"key": "ctrl+shift+s",
+		"command": "-workbench.action.files.saveAs"
+	},
+	{
+		"key": "ctrl+shift+s",
+		"command": "workbench.action.files.saveAll"
+	},
+	{
+		"key": "ctrl+k s",
+		"command": "-workbench.action.files.saveAll"
+	}
+]
