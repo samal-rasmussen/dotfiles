@@ -5,7 +5,6 @@
 	"telemetry.enableCrashReporter": false,
 	"telemetry.enableTelemetry": false,
 	"typescript.updateImportsOnFileMove.enabled": "always",
-	"update.channel": "none",
 	"window.menuBarVisibility": "default",
 	"window.zoomLevel": 0,
 	"workbench.activityBar.visible": true,
@@ -13,5 +12,4 @@
 	"editor.minimap.enabled": false,
 	"explorer.openEditors.visible": 25,
 	"workbench.editor.showTabs": false,
-	"liveshare.connectionMode": "relay",
 }
