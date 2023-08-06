@@ -1,36 +1,52 @@
 {
-	"editor.accessibilitySupport": "off",
-	"editor.detectIndentation": true,
-	"editor.guides.bracketPairs": true,
-	"editor.letterSpacing": -0.6,
-	"editor.minimap.enabled": false,
-	"explorer.openEditors.visible": 25,
-	"telemetry.telemetryLevel": "off",
-	"typescript.updateImportsOnFileMove.enabled": "always",
-	"workbench.editor.showTabs": false,
-	"terminal.integrated.defaultProfile.windows": "Git Bash",
-	"window.title": "${activeEditorMedium}${separator}${rootName}",
-	"explorer.confirmDragAndDrop": false,
-	"explorer.confirmDelete": false,
-	"workbench.editor.untitled.hint": "text",
-	"svelte.enable-ts-plugin": true,
-	"[json]": {
-		"editor.defaultFormatter": "esbenp.prettier-vscode"
-	},
-	"workbench.activityBar.visible": false,
-	"[javascript]": {
-		"editor.defaultFormatter": "esbenp.prettier-vscode"
-	},
-	"[typescriptreact]": {
-		"editor.defaultFormatter": "esbenp.prettier-vscode"
-	},
-	"[typescript]": {
-		"editor.defaultFormatter": "esbenp.prettier-vscode"
-	},
-	"[jsonc]": {
-		"editor.defaultFormatter": "esbenp.prettier-vscode"
-	},
-	"extensions.ignoreRecommendations": true,
-	"workbench.editor.labelFormat": "short"
-	// "prettier.configPath": ".prettierrc.js"
+  "editor.formatOnSave": true,
+  "editor.accessibilitySupport": "off",
+  "editor.detectIndentation": true,
+  "editor.guides.bracketPairs": true,
+  "editor.letterSpacing": -0.6,
+  "editor.minimap.enabled": false,
+  "explorer.openEditors.visible": 25,
+  "telemetry.telemetryLevel": "off",
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "workbench.editor.showTabs": false,
+  "terminal.integrated.defaultProfile.windows": "Git Bash",
+  "window.title": "${activeEditorMedium}${separator}${rootName}",
+  "explorer.confirmDragAndDrop": false,
+  "explorer.confirmDelete": false,
+  "workbench.editor.untitled.hint": "text",
+  "svelte.enable-ts-plugin": true,
+  "terminal.integrated.tabs.focusMode": "singleClick",
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "extensions.ignoreRecommendations": true,
+  "workbench.editor.labelFormat": "short",
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "files.associations": {
+    "*.ts": "typescript",
+    "*.svelte": "svelte"
+  },
+  "[svelte]": {
+    "editor.defaultFormatter": "svelte.svelte-vscode"
+  },
+  "svelte.plugin.svelte.format.config.printWidth": 100,
+  "git.openRepositoryInParentFolders": "never",
+  "workbench.activityBar.visible": false
 }
