@@ -2,26 +2,39 @@
   "editor.accessibilitySupport": "off",
   "editor.detectIndentation": true,
   "editor.formatOnSave": true,
-  "editor.gotoLocation.multipleDefinitions": "peek",
+  "editor.gotoLocation.multipleDefinitions": "goto",
   "editor.guides.bracketPairs": true,
   "editor.letterSpacing": -0.6,
   "editor.minimap.enabled": false,
-  "eslint.validate": ["javascript", "svelte"],
   "explorer.confirmDelete": false,
   "explorer.confirmDragAndDrop": false,
   "explorer.openEditors.visible": 25,
+  "explorer.sortOrder": "filesFirst",
   "extensions.ignoreRecommendations": true,
   "javascript.updateImportsOnFileMove.enabled": "always",
+  "git.openRepositoryInParentFolders": "never",
   "svelte.enable-ts-plugin": true,
   "svelte.plugin.svelte.defaultScriptLanguage": "ts",
+  "svelte.plugin.svelte.format.config.printWidth": 100,
   "telemetry.telemetryLevel": "off",
   "terminal.integrated.defaultProfile.windows": "Git Bash",
+  "terminal.integrated.tabs.focusMode": "singleClick",
+  "typescript.preferences.preferTypeOnlyAutoImports": true,
   "typescript.updateImportsOnFileMove.enabled": "always",
   "window.title": "${activeEditorMedium}${separator}${rootName}",
   "workbench.activityBar.location": "top",
   "workbench.editor.labelFormat": "short",
   "workbench.editor.showTabs": "none",
   "workbench.tree.indent": 16,
+  "workbench.editor.empty.hint": "text",
+  "terminal.integrated.enableMultiLinePasteWarning": "never",
+  "workbench.sideBar.location": "right",
+  "terminal.integrated.scrollback": 2000,
+  "html.autoClosingTags": false,
+  "update.mode": "manual",
+  "workbench.colorTheme": "Default Light Modern",
+  "prettier.printWidth": 100,
+  "prettier.trailingComma": "all",
   "[json]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
@@ -45,5 +58,12 @@
   },
   "[svelte]": {
     "editor.defaultFormatter": "svelte.svelte-vscode"
+  },
+  "[sql]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "files.associations": {
+    "*.ts": "typescript",
+    "*.svelte": "svelte"
   }
 }
