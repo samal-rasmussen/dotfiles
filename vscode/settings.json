@@ -1,69 +1,71 @@
 {
-  "editor.accessibilitySupport": "off",
-  "editor.detectIndentation": true,
-  "editor.formatOnSave": true,
-  "editor.gotoLocation.multipleDefinitions": "goto",
-  "editor.guides.bracketPairs": true,
-  "editor.letterSpacing": -0.6,
-  "editor.minimap.enabled": false,
-  "explorer.confirmDelete": false,
-  "explorer.confirmDragAndDrop": false,
-  "explorer.openEditors.visible": 25,
-  "explorer.sortOrder": "filesFirst",
-  "extensions.ignoreRecommendations": true,
-  "javascript.updateImportsOnFileMove.enabled": "always",
-  "git.openRepositoryInParentFolders": "never",
-  "svelte.enable-ts-plugin": true,
-  "svelte.plugin.svelte.defaultScriptLanguage": "ts",
-  "svelte.plugin.svelte.format.config.printWidth": 100,
-  "telemetry.telemetryLevel": "off",
-  "terminal.integrated.defaultProfile.windows": "Git Bash",
-  "terminal.integrated.tabs.focusMode": "singleClick",
-  "typescript.preferences.preferTypeOnlyAutoImports": true,
-  "typescript.updateImportsOnFileMove.enabled": "always",
-  "window.title": "${activeEditorMedium}${separator}${rootName}",
-  "workbench.activityBar.location": "top",
-  "workbench.editor.labelFormat": "short",
-  "workbench.editor.showTabs": "none",
-  "workbench.tree.indent": 16,
-  "workbench.editor.empty.hint": "text",
-  "terminal.integrated.enableMultiLinePasteWarning": "never",
-  "workbench.sideBar.location": "right",
-  "terminal.integrated.scrollback": 2000,
-  "html.autoClosingTags": false,
-  "update.mode": "manual",
-  "workbench.colorTheme": "Default Light Modern",
-  "prettier.printWidth": 100,
-  "prettier.trailingComma": "all",
-  "[json]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[javascript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[typescriptreact]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[typescript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[jsonc]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[css]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[html]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[svelte]": {
-    "editor.defaultFormatter": "svelte.svelte-vscode"
-  },
-  "[sql]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "files.associations": {
-    "*.ts": "typescript",
-    "*.svelte": "svelte"
-  }
+	"[css]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[html]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[javascript]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[json]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[jsonc]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[sql]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[svelte]": {
+		"editor.defaultFormatter": "svelte.svelte-vscode"
+	},
+	"[typescript]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[typescriptreact]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"editor.accessibilitySupport": "off",
+	"editor.detectIndentation": true,
+	"editor.formatOnSave": true,
+	"editor.gotoLocation.multipleDefinitions": "goto",
+	"editor.guides.bracketPairs": true,
+	"editor.letterSpacing": -0.6,
+	"editor.minimap.enabled": false,
+	"explorer.confirmDelete": false,
+	"explorer.confirmDragAndDrop": false,
+	"explorer.openEditors.visible": 25,
+	"explorer.sortOrder": "filesFirst",
+	"extensions.ignoreRecommendations": true,
+	"files.associations": {
+		"*.svelte": "svelte",
+		"*.ts": "typescript"
+	},
+	"git.openRepositoryInParentFolders": "never",
+	"html.autoClosingTags": false,
+	"javascript.updateImportsOnFileMove.enabled": "always",
+	"prettier.printWidth": 100,
+	"prettier.tabWidth": 4,
+	"prettier.trailingComma": "all",
+	"prettier.useTabs": true,
+	"svelte.enable-ts-plugin": true,
+	"svelte.plugin.svelte.defaultScriptLanguage": "ts",
+	"svelte.plugin.svelte.format.config.printWidth": 100,
+	"telemetry.telemetryLevel": "off",
+	"terminal.integrated.defaultProfile.windows": "Git Bash",
+	"terminal.integrated.enableMultiLinePasteWarning": "never",
+	"terminal.integrated.scrollback": 2000,
+	"terminal.integrated.tabs.focusMode": "singleClick",
+	"typescript.preferences.preferTypeOnlyAutoImports": true,
+	"typescript.updateImportsOnFileMove.enabled": "always",
+	"update.mode": "manual",
+	"window.title": "${activeEditorMedium}${separator}${rootName}",
+	"workbench.activityBar.location": "top",
+	"workbench.colorTheme": "Default Light Modern",
+	"workbench.editor.empty.hint": "text",
+	"workbench.editor.labelFormat": "short",
+	"workbench.editor.showTabs": "none",
+	"workbench.sideBar.location": "right",
+	"workbench.tree.indent": 16
 }
